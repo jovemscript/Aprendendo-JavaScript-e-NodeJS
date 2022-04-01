@@ -20,3 +20,4 @@ let valorF = 'c';
 
 [valorD, valorE, valorF] = [valorE, valorF, valorD]
 
+console.log(valorD, valorE, valorF);
