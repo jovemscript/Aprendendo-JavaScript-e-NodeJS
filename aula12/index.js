@@ -1,3 +1,4 @@
+
 let valorA = 'a'  
 let valorB = 'b' 
 let valorC = 'c'
@@ -11,3 +12,11 @@ valorC = tempvalorA
 console.log(valorA , valorB , valorC)
 
 //aprendi sobre variaveis temporarioas
+
+//metodo moderno de resolução
+let valorD = 'a';  
+let valorE = 'b';
+let valorF = 'c';
+
+[valorD, valorE, valorF] = [valorE, valorF, valorD]
+
