@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+:root{
+    --primary-color:  rgb(0, 35, 51);
+}
+
+*{
+    box-sizing: border-box;
+    outline:0
+    
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color); 
+    font-family: Quicksand ;   
+}
+
+.container{
+    min-width: 40vh;
+    max-width: 60vh;
+    margin: 60px auto;
+    background-color: rgb(255, 255, 255);
+    padding:5vh;
+    border-radius: 15px;
+    box-shadow: rgba(0, 48, 102, 0.527) 5px 5px 25px;
+    line-height: 2.5em;
+    font-weight: bolder;
+}
+
+.obs{
+    display: flex;
+}
+
+h1{
+    color: rgb(0, 28, 51);
+    font-size: 4.5vh;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+    
+}
+
+
+.imc{
+    padding-right: 15vh;
+   
+}
+
+form p{
+  
+        word-spacing: 80px;
+        margin-bottom: 1vh;
+  
+}
+
+
+input, button{
+    margin-right: 2vh;
+    width: 18vh;
+    height: 6vh;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 92, 110);
+    border: 0 none;
+    outline: 0;
+    font-family: Quicksand;
+    font-size: 3vh;
+}
+
+.p-resultado{
+    background-color: rgba(65, 195, 255, 0.507);
+    color: rgb(0, 0, 0);
+    padding: 2vh;
+    border-radius: 2vh;
+    align-items: center;
+    text-align: center;
+    width: 72vh;
+}
+
+.p-bad{
+    background-color: rgb(15, 89, 121);
+    color: rgb(247, 247, 247);
+    padding: 2vh;
+    border-radius: 2vh;
+    align-items: center;
+    text-align: center;
+    width: 70vh;
+
+}
+
+
+footer, p.copy {
+    text-align: center;
+    align-content: center;
+    color: rgb(27, 147, 177);
+}
